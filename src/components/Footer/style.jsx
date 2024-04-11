@@ -192,8 +192,7 @@ export const Contact = styled.div`
     min-height: 130px;
     max-height: 230px;
     max-width: 100%;
-    min-width: 100%;
-    padding: 15px 20px 0 48px;
+    padding: 15px 18px 0 48px;
   }
 
   form .message textarea::-webkit-scrollbar {
@@ -304,7 +303,7 @@ export const FooterContainer = styled.div`
   .container .content .links {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding-bottom: 5%;
   }
 
@@ -326,7 +325,9 @@ export const FooterContainer = styled.div`
   }
 
   .container .content .logo img {
-    width: 25%;
+    position: relative;
+    left: 5%;
+    width: 15%;
   }
 
   nav {
@@ -340,7 +341,7 @@ export const FooterContainer = styled.div`
   }
 
   li {
-    margin: 0 2rem;
+    margin: 0 4rem;
   }
 
   .container .content .links a {
@@ -352,29 +353,9 @@ export const FooterContainer = styled.div`
     position: relative;
   }
 
-  .container .content .row .icons a {
-    margin: 0 2rem;
-  }
-
-  .container .content .links a:before {
-    content: "";
-    position: absolute;
-    background: #880c85;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease;
-  }
-
-  .container .content .links a:hover:before {
-    width: 100%;
-  }
-
-  span {
-    font-family: "Newton Howard Font", sans-serif;
-    font-weight: 200;
-    color: #880c85;
+  .midias {
+    display: flex;
+    flex-direction: row;
   }
 
   .row {

@@ -3,7 +3,7 @@ import { WavesAnimation, Contact, FooterContainer, Button } from "./style";
 import api from "lib/api";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import DeGabrielDEV from "assets/images/Icon.png";
+import IconCelso from "assets/icons/Celso Dos Frangos.png";
 
 const Footer = () => {
   const MySwal = withReactContent(Swal);
@@ -182,7 +182,7 @@ const Footer = () => {
           <section className="container">
             <div className="content">
               <div className="logo">
-                <img src={DeGabrielDEV} alt="CelsoDosFrangos" />
+                <img src={IconCelso} alt="CelsoDosFrangos" />
               </div>
               <section className="links">
                 <div className="contacts">
@@ -220,9 +220,24 @@ const Footer = () => {
                       </li>
                       <li>
                         <span>Contato:</span>
+                        <a href="">(21) 96837-5445</a>
                       </li>
                       <li>
                         <span>Mídias:</span>
+                        <div className="midias">
+                          <a href="">
+                            <i className="facebook fab fa-facebook"></i>
+                          </a>
+                          <a href="">
+                            <i className="instagram fab fa-instagram"></i>
+                          </a>
+                          <a href="">
+                            <i className="twitter fab fa-x-twitter"></i>
+                          </a>
+                          <a href="">
+                            <i className="youtube fab fa-youtube"></i>
+                          </a>
+                        </div>
                       </li>
                     </ul>
                   </nav>
