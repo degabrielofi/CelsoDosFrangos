@@ -112,9 +112,6 @@ const Footer = () => {
 
       <Contact id="Footer">
         <section className="wrapper" style={{ background: "#fff" }}>
-          <header>
-            <h2 style={{ color: "#000" }}>Mande a sua mensagem ⭣</h2>
-          </header>
           <form onSubmit={sendEmail}>
             <div className="dbl-field">
               <div className="field">
@@ -232,7 +229,7 @@ const Footer = () => {
                             <i className="instagram fab fa-instagram"></i>
                           </a>
                           <a href="">
-                            <i className="twitter fab fa-x-twitter"></i>
+                            <i className="twitter fab fa-twitter"></i>
                           </a>
                           <a href="">
                             <i className="youtube fab fa-youtube"></i>

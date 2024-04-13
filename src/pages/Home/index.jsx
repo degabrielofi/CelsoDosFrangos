@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Image>
+      {/*  <Image>
         <img src={Icon} alt="Celso Dos Frangos" />
-      </Image>
+      </Image> */}
       {/* <Cards /> */}
       <Footer />
     </>

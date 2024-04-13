@@ -116,15 +116,6 @@ export const Contact = styled.div`
     width: 100%;
   }
 
-  .wrapper header h2 {
-    display: flex;
-    font-size: 22px;
-    font-weight: 600;
-    padding: 30px 10px;
-    justify-content: center;
-    border-bottom: 1px solid #c5c5c5;
-  }
-
   .wrapper form {
     margin: 5% 10%;
   }
@@ -183,24 +174,16 @@ export const Contact = styled.div`
     position: relative;
   }
 
-  form .message .textInput {
-    top: 30px;
-    font-size: 20px;
-  }
-
   form .message textarea {
     min-height: 130px;
     max-height: 230px;
     max-width: 100%;
-    padding: 15px 18px 0 48px;
+    min-width: 100%;
+    padding: 15px 20px 0 48px;
   }
 
   form .message textarea::-webkit-scrollbar {
     width: 0px;
-  }
-
-  .message textarea:focus {
-    padding-top: 14px;
   }
 
   @media (max-width: 600px) {
@@ -300,20 +283,25 @@ export const Button = styled.div`
 export const FooterContainer = styled.div`
   margin-top: -5%;
 
-  .container .content .links {
+  .content .links {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding-bottom: 5%;
   }
 
-  .container .content .logo {
+  .content .logo {
     margin-top: 5%;
     width: 100%;
     position: relative;
   }
 
-  .container .content .logo:after {
+  .content .logo img {
+    position: relative;
+    left: 5%;
+    width: 15%;
+  }
+
+  .content .logo:after {
     content: "";
     display: block;
     position: absolute;
@@ -322,16 +310,6 @@ export const FooterContainer = styled.div`
     top: 50%;
     height: 1px;
     background: #c5c5c5c5;
-  }
-
-  .container .content .logo img {
-    position: relative;
-    left: 5%;
-    width: 15%;
-  }
-
-  nav {
-    width: 100%;
   }
 
   ul {
@@ -344,7 +322,7 @@ export const FooterContainer = styled.div`
     margin: 0 4rem;
   }
 
-  .container .content .links a {
+  .content .links a {
     display: block;
     color: #5b5e5e;
     font-size: 1.5rem;
@@ -356,6 +334,47 @@ export const FooterContainer = styled.div`
   .midias {
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+
+  .facebook {
+    margin: 0 0.2rem 0 0;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    background-color: #3b5998;
+  }
+
+  .twitter {
+    margin: 0 0.2rem;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    background-color: #000000;
+  }
+
+  .instagram {
+    margin: 0 0.2rem;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    background-color: #ea2c59;
+  }
+
+  .youtube {
+    margin: 0 0.2rem;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    background-color: #a82400;
+  }
+
+  i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
   }
 
   .row {
@@ -367,7 +386,7 @@ export const FooterContainer = styled.div`
     justify-content: flex-start;
   }
 
-  .copy h5 {
+  h5 {
     margin: 0 1rem 2rem;
     color: #5b5e5e;
     font-weight: 400;
@@ -376,11 +395,11 @@ export const FooterContainer = styled.div`
 
   @media (max-width: 992px) {
     .container .content .logo img {
-      width: 50%;
+      width: 15%;
     }
 
     .container .content .logo:after {
-      left: 50%;
+      left: 25%;
     }
 
     .container .content .links {
