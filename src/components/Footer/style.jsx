@@ -212,7 +212,7 @@ export const Contact = styled.div`
   }
 
   @media screen and (max-width: 998px) {
-    margin-top: 1rem;
+    margin-top: 0;
   }
 `;
 
@@ -267,6 +267,7 @@ export const Button = styled.div`
   }
 
   .btn .submitMessage {
+    color: #fff;
     transform: translateX(-200%);
     transition: 0.5s;
     width: 0;
@@ -320,6 +321,11 @@ export const FooterContainer = styled.div`
 
   li {
     margin: 0 4rem;
+  }
+
+  span {
+    font-size: 30px;
+    border-bottom: 1px solid #c5c5c5;
   }
 
   .content .links a {

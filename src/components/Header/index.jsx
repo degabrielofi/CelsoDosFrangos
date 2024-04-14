@@ -8,7 +8,7 @@ import {
   SubMenuItem,
   MobileMenuIcon,
 } from "./style";
-import Icon from "assets/icons/Celso Dos Frangos.png";
+import Icon from "assets/icons/IconHeader.png";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
