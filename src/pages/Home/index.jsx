@@ -12,7 +12,7 @@ const Home = () => {
       {/*  <Image id="Home">
         <img src={Icon} alt="Celso Dos Frangos" />
       </Image> */}
-      {/* <Cards /> */}
+      <Cards />
       <Footer />
     </>
   );
