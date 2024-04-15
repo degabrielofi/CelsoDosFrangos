@@ -157,17 +157,18 @@ export const Contact = styled.div`
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: transparent;
   }
 
   .field input:focus,
   .message textarea:focus {
     padding-left: 47px;
-    border: 2px solid #880c85;
+    border: 2px solid #234f74;
   }
 
   .field input:focus ~ .textInput,
   .message textarea:focus ~ .textInput {
-    color: #880c85;
+    color: #234f74;
   }
 
   form .message {
@@ -180,6 +181,14 @@ export const Contact = styled.div`
     max-width: 100%;
     min-width: 100%;
     padding: 15px 20px 0 48px;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #fff !important;
+  }
+
+  textarea::-webkit-input-placeholder {
+    color: #fff !important;
   }
 
   form .message textarea::-webkit-scrollbar {
@@ -234,16 +243,16 @@ export const Button = styled.div`
   .btn div {
     letter-spacing: 2px;
     font-weight: bold;
-    background: #880c85;
+    background: #fff;
     border-radius: 2rem;
-    color: #fff;
+    color: #234f74;
     padding: 1rem;
   }
 
   .btn::before {
     content: "";
     z-index: 1;
-    background-color: #880c85;
+    background-color: #fff;
     border: 2px solid white;
     border-radius: 2rem;
     width: 110%;
@@ -267,7 +276,7 @@ export const Button = styled.div`
   }
 
   .btn .submitMessage {
-    color: #fff;
+    color: #234f74;
     transform: translateX(-200%);
     transition: 0.5s;
     width: 0;
@@ -290,19 +299,19 @@ export const FooterContainer = styled.div`
     padding-bottom: 5%;
   }
 
-  .content .logo {
+  .content .icon {
     margin-top: 5%;
     width: 100%;
     position: relative;
   }
 
-  .content .logo img {
+  .content .icon img {
     position: relative;
     left: 5%;
     width: 15%;
   }
 
-  .content .logo:after {
+  .content .icon:after {
     content: "";
     display: block;
     position: absolute;
@@ -310,7 +319,7 @@ export const FooterContainer = styled.div`
     left: 25%;
     top: 50%;
     height: 1px;
-    background: #c5c5c5c5;
+    background: #fff;
   }
 
   ul {
@@ -324,23 +333,29 @@ export const FooterContainer = styled.div`
   }
 
   span {
-    font-size: 30px;
-    border-bottom: 1px solid #c5c5c5;
+    font-size: 40px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
   }
 
   .content .links a {
     display: block;
-    color: #5b5e5e;
+    color: #234f74;
     font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
     position: relative;
   }
 
+  .page {
+    margin-top: 0.5rem;
+  }
+
   .midias {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 0.5rem;
   }
 
   .facebook {
@@ -394,17 +409,17 @@ export const FooterContainer = styled.div`
 
   h5 {
     margin: 0 1rem 2rem;
-    color: #5b5e5e;
+    color: #fff;
     font-weight: 400;
     font-size: 80%;
   }
 
   @media (max-width: 992px) {
-    .container .content .logo img {
+    .container .content .icon img {
       width: 15%;
     }
 
-    .container .content .logo:after {
+    .container .content .icon:after {
       left: 25%;
     }
 
