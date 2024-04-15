@@ -141,7 +141,8 @@ const Footer = () => {
                   onChange={(e) => setPhone(e.target.value)}
                   type="text"
                   name="phone"
-                  placeholder="Coloque o seu telefone"
+                  placeholder="Coloque o seu telefone (*)"
+                  required
                 />
                 <i className="textInput fas fa-phone-alt"></i>
               </div>
@@ -226,10 +227,10 @@ const Footer = () => {
                       <li>
                         <span>Mídias:</span>
                         <div className="midias">
-                          <a href="">
+                          <a href="https://www.facebook.com/celso.celsodosfrangos/">
                             <i className="facebook fab fa-facebook"></i>
                           </a>
-                          <a href="">
+                          <a href="https://www.instagram.com/celsodosfrangos/">
                             <i className="instagram fab fa-instagram"></i>
                           </a>
                           <a href="">

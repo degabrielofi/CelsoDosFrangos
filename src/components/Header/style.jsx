@@ -18,7 +18,7 @@ export const Container = styled.div`
   }
 
   .icon img {
-    width: 70%;
+    width: 75%;
   }
 `;
 
