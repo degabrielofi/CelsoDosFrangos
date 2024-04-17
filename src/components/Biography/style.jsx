@@ -41,7 +41,7 @@ export const Content = styled.div`
 
   .biographyComplete {
     margin-top: -2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   .biographyComplete a {
@@ -50,7 +50,13 @@ export const Content = styled.div`
     font-weight: 900;
     text-transform: uppercase;
     background-color: #000e35;
-    padding: 0.3em 1em !important;
+    padding: 0.3em 1em;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .biographyComplete a:hover {
+    padding: 0.4em 1.1em;
+    transition: all 0.2s ease-in-out;
   }
 
   @media (max-width: 600px) {

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   background-color: #1a7699;
-  color: #fff;
   padding: 10px;
 `;
 
@@ -44,28 +43,19 @@ export const NavItem = styled.li`
   font-size: 18px;
   position: relative;
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover {
+    color: #d4cfcf;
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 768px) {
     margin: 10px 0;
   }
-`;
-
-export const SubMenu = styled.ul`
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #333;
-  padding: 10px 0;
-  z-index: 999;
-
-  ${NavItem}:hover & {
-    display: block;
-  }
-`;
-
-export const SubMenuItem = styled.li`
-  font-size: 16px;
-  padding: 10px 20px;
 `;
 
 export const MobileMenuIcon = styled.div`

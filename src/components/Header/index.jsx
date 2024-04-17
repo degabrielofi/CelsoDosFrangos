@@ -4,8 +4,6 @@ import {
   Container,
   NavMenu,
   NavItem,
-  SubMenu,
-  SubMenuItem,
   MobileMenuIcon,
 } from "./style";
 import Icon from "assets/icons/IconHeader White.png";
@@ -17,6 +15,12 @@ const Header = () => {
     setShowMenu(!showMenu);
   };
 
+  const handleScrollToFooter = () => {
+    const Footer = document.querySelector("#Footer");
+
+    Footer?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <HeaderWrapper>
       <Container>
@@ -25,17 +29,26 @@ const Header = () => {
         </div>
         <MobileMenuIcon onClick={toggleMenu}>&#9776;</MobileMenuIcon>
         <NavMenu showMenu={showMenu}>
-          <NavItem>Inicio</NavItem>
-          <NavItem>Minha História</NavItem>
-          <NavItem onMouseEnter={toggleMenu} onMouseLeave={toggleMenu}>
-            Mandato
-            <SubMenu>
-              <SubMenuItem>Leis sancionadas</SubMenuItem>
-              <SubMenuItem>Projetos de lei</SubMenuItem>
-            </SubMenu>
+          <NavItem>
+            <a href="/">Início</a>
           </NavItem>
-          <NavItem>Propostas</NavItem>
-          <NavItem>Contato</NavItem>
+          <NavItem>
+            <a href="/historia">Minha História</a>
+          </NavItem>
+          <NavItem>
+            <a href="/propostas">Propostas</a>
+          </NavItem>
+          <NavItem>
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                handleScrollToFooter();
+              }}
+            >
+              Contato
+            </a>
+          </NavItem>
         </NavMenu>
       </Container>
     </HeaderWrapper>
