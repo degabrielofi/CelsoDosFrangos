@@ -1,0 +1,34 @@
+{
+  "ProposalsIdentification": [
+    {
+      "ProposalsID": 0
+    },
+
+    {
+      "Proposals": {
+        "title": "EDUCAÇÃO",
+        "image": "",
+        "topics": [{}]
+      },
+      "ProposalsID": 1
+    },
+
+    {
+      "Proposals": {
+        "title": "SAÚDE",
+        "image": "",
+        "topics": [{}]
+      },
+      "ProposalsID": 2
+    },
+
+    {
+      "Proposals": {
+        "title": "RUAS",
+        "image": "",
+        "topics": [{}]
+      },
+      "ProposalsID": 3
+    }
+  ]
+}
