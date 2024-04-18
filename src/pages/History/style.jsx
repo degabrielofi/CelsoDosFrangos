@@ -12,7 +12,9 @@ export const Container = styled.div`
 
   .title_page .Crato {
     width: 100%;
-    height: 100%;
+    height: 300px;
+    background-size: cover;
+    margin-top: -1%;
     filter: blur(5px);
     z-index: -10;
   }
@@ -21,7 +23,7 @@ export const Container = styled.div`
     position: absolute;
     letter-spacing: 0.2rem;
     line-height: 1rem;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #fff;
   }
 
@@ -34,7 +36,7 @@ export const Container = styled.div`
 
   .title_page .detail i {
     position: absolute;
-    width: 200%;
+    width: 120%;
     content: url(${detailGeneral});
     z-index: -1;
   }
