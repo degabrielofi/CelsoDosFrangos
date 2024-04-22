@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import detailGeneral from "assets/images/detailYellow.jpg";
-import detailYellow from "assets/images/detailYellow.jpg";
+import detailBlue from "assets/images/detailBlue.png";
+import detailGeneral from "assets/images/detailGeneral.png";
+import detailYellow from "assets/images/detailYellow.png";
 
 export const Title = styled.div`
   .title_page {
@@ -53,7 +54,7 @@ export const Title = styled.div`
   }
 `;
 
-export const FirstYears = styled.div`
+export const CelsoDosFrangos = styled.div`
   margin-top: 3rem;
 
   .title {
@@ -114,7 +115,7 @@ export const FirstYears = styled.div`
   }
 `;
 
-export const StartOfKart = styled.div`
+export const Vereador = styled.div`
   margin-top: 3rem;
 
   .title {
@@ -135,7 +136,7 @@ export const StartOfKart = styled.div`
   .title i {
     margin-top: -0.5rem;
     z-index: -10;
-    content: url(${detailYellow});
+    content: url(${detailBlue});
   }
 
   .text {

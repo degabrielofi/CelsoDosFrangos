@@ -1,5 +1,5 @@
 import React from "react";
-import { Title, FirstYears, StartOfKart } from "./style";
+import { Title, CelsoDosFrangos, Vereador } from "./style";
 import Crato from "assets/images/Crato.jpg";
 import Header from "components/Header";
 import Footer from "components/Footer";
@@ -21,9 +21,9 @@ const History = () => {
         </div>
       </Title>
 
-      <FirstYears>
+      <CelsoDosFrangos>
         <div className="title">
-          <h1>PRIMEIROS ANOS</h1>
+          <h1>CELSO RODRIGUES</h1>
           <br />
           <i></i>
         </div>
@@ -50,11 +50,11 @@ const History = () => {
           </p>
           <img src={Celso} alt="" />
         </div>
-      </FirstYears>
+      </CelsoDosFrangos>
 
-      <StartOfKart>
+      <Vereador>
         <div className="title">
-          <h1>INÍCIO NO KART</h1>
+          <h1>COMO VEREADOR</h1>
           <br />
           <i></i>
         </div>
@@ -81,7 +81,7 @@ const History = () => {
             PageMaker including versions of Lorem Ipsum."
           </p>
         </div>
-      </StartOfKart>
+      </Vereador>
 
       <Footer />
     </>

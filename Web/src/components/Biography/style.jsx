@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import detailYellow from "assets/images/detailYellow.jpg";
+import detailYellow from "assets/images/detailYellow.png";
 
 export const Content = styled.div`
   margin-top: 10%;

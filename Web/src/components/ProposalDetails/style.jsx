@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import detailGeneral from "assets/images/detailYellow.jpg";
+import detailYellow from "assets/images/detailYellow.png";
 
 export const Title = styled.div`
   .title_page {
@@ -10,7 +10,7 @@ export const Title = styled.div`
     width: 100%;
   }
 
-  .title_page .Imagem {
+  .title_page .Image {
     display: block;
     width: 100%;
     height: 300px;
@@ -22,9 +22,9 @@ export const Title = styled.div`
 
   .title_page h1 {
     position: absolute;
-    letter-spacing: 0.2rem;
+    letter-spacing: 5px;
     line-height: 1rem;
-    font-size: 4rem;
+    font-size: 400%;
     color: #fff;
   }
 
@@ -37,8 +37,8 @@ export const Title = styled.div`
 
   .title_page .detail i {
     position: absolute;
-    width: 120%;
-    content: url(${detailGeneral});
+    width: 160%;
+    content: url(${detailYellow});
     z-index: -1;
   }
 

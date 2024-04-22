@@ -13,7 +13,7 @@ const ProposalDetails = () => {
     <>
       <Title>
         <div className="title_page">
-          <img className="Imagem" src={image} alt={title} />
+          <img className="Image" src={image} alt={title} />
           <h1>
             {title}
             <div className="detail">

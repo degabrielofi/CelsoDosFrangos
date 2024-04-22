@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import detailGeneral from "assets/images/detailYellow.jpg";
+import detailBlue from "assets/images/detailBlue.png";
+import detailGeneral from "assets/images/detailGeneral.png";
 
 export const Container = styled.div`
   width: 100%;
@@ -66,7 +67,7 @@ export const Title = styled.div`
 
   .title_page .detail i {
     position: absolute;
-    width: 120%;
+    width: 140%;
     content: url(${detailGeneral});
     z-index: -1;
   }
