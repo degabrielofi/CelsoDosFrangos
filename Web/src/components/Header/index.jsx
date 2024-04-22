@@ -21,6 +21,10 @@ const Header = () => {
     Footer?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <HeaderWrapper>
       <Container>
@@ -52,6 +56,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 handleScrollToFooter();
+                closeMenu();
               }}
             >
               Contato
