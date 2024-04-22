@@ -29,7 +29,13 @@ const Header = () => {
             <img src={Icon} alt="" />
           </a>
         </div>
-        <MobileMenuIcon onClick={toggleMenu}>&#9776;</MobileMenuIcon>
+        <MobileMenuIcon onClick={toggleMenu}>
+          <section className={showMenu ? "toggleMenu active" : "toggleMenu"}>
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+          </section>
+        </MobileMenuIcon>
         <NavMenu showMenu={showMenu}>
           <NavItem>
             <a href="/">Início</a>

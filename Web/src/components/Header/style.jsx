@@ -19,6 +19,12 @@ export const Container = styled.div`
   .icon img {
     width: 75%;
   }
+
+  @media screen and (max-width: 768px) {
+    .icon {
+      width: 25%;
+    }
+  }
 `;
 
 export const NavMenu = styled.ul`
@@ -32,7 +38,7 @@ export const NavMenu = styled.ul`
     top: ${({ showMenu }) => (showMenu ? "80px" : "-100%")};
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #1a7699;
     transition: top 0.3s ease;
     z-index: 999;
   }
@@ -60,10 +66,31 @@ export const NavItem = styled.li`
 
 export const MobileMenuIcon = styled.div`
   display: none;
-  font-size: 24px;
   cursor: pointer;
 
   @media screen and (max-width: 768px) {
     display: block;
+
+    div {
+      height: 5px;
+      width: 30px;
+      margin: 6px;
+      background-color: #fff;
+      transition-duration: 0.3s;
+    }
+
+    .toggleMenu.active .line1 {
+      transform: rotate(45deg) translate(7px, 7px);
+      background-color: #fff;
+    }
+
+    .toggleMenu.active .line2 {
+      opacity: 0;
+    }
+
+    .toggleMenu.active .line3 {
+      transform: rotate(-45deg) translate(8px, -9px);
+      background-color: #fff;
+    }
   }
 `;
