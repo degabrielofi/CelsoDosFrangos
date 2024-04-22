@@ -8,7 +8,6 @@ const ProposalDetails = () => {
   const { title, image, Topics } =
     proposals.ProposalsIdentification[id].Proposals;
 
-  console.log(Topics);
   return (
     <>
       <Title>
