@@ -61,11 +61,11 @@ export const Content = styled.div`
 
   @media (max-width: 600px) {
     .title h1 {
-      font-size: 250%;
+      font-size: 200%;
     }
 
     .title i {
-      width: 100%;
+      width: 95%;
       height: 50px;
     }
 

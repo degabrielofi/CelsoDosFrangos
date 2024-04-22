@@ -45,11 +45,11 @@ export const Title = styled.div`
 
   @media (max-width: 600px) {
     .title_page h1 {
-      font-size: 200%;
+      font-size: 220%;
     }
 
     .title_page .detail i {
-      width: 150%;
+      width: 120%;
     }
   }
 `;
@@ -94,11 +94,11 @@ export const CelsoDosFrangos = styled.div`
 
   @media (max-width: 600px) {
     .title h1 {
-      font-size: 250%;
+      font-size: 200%;
     }
 
     .title i {
-      width: 100%;
+      width: 95%;
       height: 50px;
     }
 
@@ -157,7 +157,12 @@ export const Vereador = styled.div`
 
   @media (max-width: 600px) {
     .title h1 {
-      font-size: 250%;
+      font-size: 200%;
+    }
+
+    .title i {
+      width: 95%;
+      height: 50px;
     }
 
     .text {

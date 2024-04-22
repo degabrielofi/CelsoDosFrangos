@@ -74,11 +74,11 @@ export const Title = styled.div`
 
   @media (max-width: 600px) {
     .title_page h1 {
-      font-size: 200%;
+      font-size: 250%;
     }
 
     .title_page .detail i {
-      width: 150%;
+      width: 120%;
     }
   }
 `;
