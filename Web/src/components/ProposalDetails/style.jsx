@@ -37,18 +37,18 @@ export const Title = styled.div`
 
   .title_page .detail i {
     position: absolute;
-    width: 160%;
+    width: 150%;
     content: url(${detailYellow});
     z-index: -1;
   }
 
   @media (max-width: 600px) {
     .title_page h1 {
-      font-size: 4rem;
+      font-size: 300%;
     }
 
     .title_page .detail i {
-      width: 150%;
+      width: 120%;
     }
   }
 `;
@@ -64,5 +64,6 @@ export const Container = styled.div`
 
   .topic li p {
     font-size: 120%;
+    margin: 0.5rem;
   }
 `;

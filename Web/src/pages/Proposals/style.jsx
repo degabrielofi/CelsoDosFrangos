@@ -30,6 +30,30 @@ export const Container = styled.div`
   a {
     color: #1a7699;
   }
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+
+    .content img {
+      width: 100%;
+    }
+
+    .content {
+      margin: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+
+    .content img {
+      width: 100%;
+    }
+
+    .content {
+      margin: 1.5rem;
+    }
+  }
 `;
 
 export const Title = styled.div`
