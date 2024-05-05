@@ -417,11 +417,11 @@ export const FooterContainer = styled.div`
 
   @media (max-width: 992px) {
     .container .content .icon img {
-      width: 15%;
+      width: 30%;
     }
 
     .container .content .icon:after {
-      left: 25%;
+      left: 35%;
     }
 
     .container .content .links {

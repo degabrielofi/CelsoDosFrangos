@@ -32,10 +32,21 @@ export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 568px) {
     flex-direction: column;
-    position: fixed;
-    top: ${({ showMenu }) => (showMenu ? "80px" : "-100%")};
+    position: absolute;
+    top: ${({ showMenu }) => (showMenu ? "10%" : "-100%")};
+    left: 0;
+    width: 100%;
+    background-color: #1a7699;
+    transition: top 0.3s ease;
+    z-index: 999;
+  }
+
+  @media screen and (min-width: 568px) and (max-width: 992px) {
+    top: ${({ showMenu }) => (showMenu ? "20%" : "-100%")};
+    flex-direction: column;
+    position: absolute;
     left: 0;
     width: 100%;
     background-color: #1a7699;
