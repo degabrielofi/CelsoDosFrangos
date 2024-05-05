@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+<h1 align="center">🤖 DGzzIN ツ</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="MyLinks" src="./src/assets/images/Mockup.png" width="70%"> 
+  </p>
 
-## Available Scripts
+  <p align="center">
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/degabrielofi/DGzzIN?color=f0db4f">
+  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/degabrielofi/DGzzIN?color=f0db4f">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/degabrielofi/DGzzIN?color=f0db4f">
+</p>
 
-In the project directory, you can run:
+## 📌 System Requirements
 
-### `npm start`
+- [git](https://git-scm.com/) v2.13 ou superior
+- [NodeJS](https://nodejs.org/en) `14 || 16 || 18`
+- [npm](https://www.npmjs.com/) v6 ou superior
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Todos estes requerimentos devem estar disponíveis no seu `PATH`. Para verificar se tudo está configurado corretamente, você pode executar os comandos abaixo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```shell
+git --version
+node --version
+npm --version
+```
 
-### `npm test`
+Se você tiver problemas com qualquer um deles, saiba mais sobre o ambiente PATH e como corrigi-lo aqui para [Windows](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/) ou
+[Mac/Linux](https://stackoverflow.com/questions/24306398/how-to-add-mongo-commands-to-path-on-mac-osx/24322978#24322978).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :clipboard: Sobre o projeto
 
-### `npm run build`
+Bem-vindo à página do DGzzIN ツ - o seu Bot para Discord!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Aqui, convido você a descobrir o universo do DGzzIN ツ, um bot criado para Discord que oferece funcionalidades e entretenimento para servidores online. Neste site, você poderá explorar meu processo de crescimento e encontrar alguns dos recursos mais importantes que o DGzzIN ツ oferece.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Reunidos cuidadosamente em um só lugar, estarão informações sobre o progresso do bot, sua evolução ao longo do tempo e as principais funcionalidades implementadas para aprimorar a experiência dos utilizadores. Neste local, é viável experimentar comandos de entretenimento, regulação, dados e ferramentas que foram elaborados com atenção para tornar os servidores do Discord mais vibrantes e participativos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este site reflete a essência do meu trabalho e a minha dedicação em oferecer uma experiência incrível aos usuários do DGzzIN ツ. Descubra, deixe-se levar e conheça o máximo do que realizei até agora. Bem-vindo e aproveite para descobrir o mundo do DGzzIN ツ!
 
-### `npm run eject`
+Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
+<p align="center">
+  <img alt="MyLinks" src="./src/assets/videos/DGzzIN.gif" width="70%"> 
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🔗 Acesse o site com o link abaixo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [DGzzIN ツ | O Seu BOT para o Discord](https://dgzzinbot.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ Configuração
 
-## Learn More
+🖨️ #Clonando o repositório do Github:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ git clone https://github.com/degabrielofi/DGzzIN_Web
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🗃️ #Instalação de packages:
 
-### Code Splitting
+```
+$ npm i .
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✅ #Inicializar projeto:
 
-### Analyzing the Bundle Size
+```
+$ npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ➿ Running the app
 
-### Making a Progressive Web App
+Para colocar o aplicativo em funcionamento (e realmente ver se ele funcionou), execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```shell
+npm run start
+```
 
-### Advanced Configuration
+## :computer: Tecnologias utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-### Deployment
+- [React.js](https://pt-br.reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [JavaScript](https://www.javascript.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Styled-Components](https://styled-components.com/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Colaboradores
 
-### `npm run build` fails to minify
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://avatars.githubusercontent.com/u/92073289?v=4" width="100px;" alt="Foto do degabrielofi no GitHub"/><br>
+        <sub>
+          <b>Gabriel Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+##
+
+<p align="center">
+  <img src="./src/assets/GitHub/Icon.png" width="15%">
+</p>
