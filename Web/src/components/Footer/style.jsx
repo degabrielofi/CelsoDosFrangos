@@ -157,6 +157,7 @@ export const Contact = styled.div`
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    color: #fff;
     background-color: transparent;
   }
 
