@@ -1,6 +1,6 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
-const cors = require("cors");
+import express from "express";
+import nodemailer from "nodemailer";
+import cors from "cors";
 import "dotenv/config";
 
 const app = express();
@@ -13,8 +13,8 @@ app.post("/contact", async (req, res) => {
   return res.status(201).send(
     await transport.sendMail({
       from: { email },
-      to: "Gabriel Silva <contatodegabrielofi@gmail.com",
-      subject: "[DeGabrielDEV] - New message from your Portfólio",
+      to: "Celso Oliveira <contatodegabrielofi@gmail.com",
+      subject: "[DeGabrielDEV] - New message from your WebSite",
       html: [
         `<section style="font-family: "Brush Script MT", "Comic Sans MS", Arial, sans-serif; font-size: 1rem; background-color: #ebf0f6; ">`,
         `<div style="display: flex; padding-top: 1rem;  margin: auto; justify-content: center; width: 100%;">`,
