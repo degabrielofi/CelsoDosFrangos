@@ -4,6 +4,7 @@ import api from "lib/api";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import IconCelso from "assets/icons/Celso Dos Frangos.png";
+import IconDEGabrielDEV from "assets/icons/DeGabrielDEV.png";
 
 const Footer = () => {
   const MySwal = withReactContent(Swal);
@@ -236,6 +237,11 @@ const Footer = () => {
                   <h5>
                     © {currentDate} @celsodosfrangos - All Rights Reserved
                   </h5>
+                </div>
+                <div className="degabrieldev">
+                  <a href="https://degabrielofi.vercel.app" target="--blank">
+                    <img src={IconDEGabrielDEV} alt="DEGabrielDEV" />
+                  </a>
                 </div>
               </section>
             </div>

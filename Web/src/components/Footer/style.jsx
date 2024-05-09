@@ -401,7 +401,10 @@ export const FooterContainer = styled.div`
   }
 
   .row {
-    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10%;
   }
 
   .row .copy {
@@ -414,6 +417,14 @@ export const FooterContainer = styled.div`
     color: #fff;
     font-weight: 400;
     font-size: 80%;
+  }
+
+  .degabrieldev {
+    width: 20%;
+  }
+
+  .degabrieldev img {
+    width: 100%;
   }
 
   @media (max-width: 992px) {
@@ -436,6 +447,10 @@ export const FooterContainer = styled.div`
 
     li {
       margin: 1rem;
+    }
+
+    .degabrieldev {
+      width: 40%;
     }
   }
 `;
