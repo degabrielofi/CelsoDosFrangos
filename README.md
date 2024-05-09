@@ -1,13 +1,13 @@
-<h1 align="center">🤖 DGzzIN ツ</h1>
+<h1 align="center">Celso Dos Frangos</h1>
 
 <p align="center">
   <img alt="MyLinks" src="./src/assets/images/Mockup.png" width="70%"> 
   </p>
 
   <p align="center">
-  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/degabrielofi/DGzzIN?color=f0db4f">
-  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/degabrielofi/DGzzIN?color=f0db4f">
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/degabrielofi/DGzzIN?color=f0db4f">
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/degabrielofi/CelsoDosFrangos?color=f0db4f">
+  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/degabrielofi/CelsoDosFrangos?color=f0db4f">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/degabrielofi/CelsoDosFrangos?color=f0db4f">
 </p>
 
 ## 📌 System Requirements
@@ -29,14 +29,6 @@ Se você tiver problemas com qualquer um deles, saiba mais sobre o ambiente PATH
 
 # :clipboard: Sobre o projeto
 
-Bem-vindo à página do DGzzIN ツ - o seu Bot para Discord!
-
-Aqui, convido você a descobrir o universo do DGzzIN ツ, um bot criado para Discord que oferece funcionalidades e entretenimento para servidores online. Neste site, você poderá explorar meu processo de crescimento e encontrar alguns dos recursos mais importantes que o DGzzIN ツ oferece.
-
-Reunidos cuidadosamente em um só lugar, estarão informações sobre o progresso do bot, sua evolução ao longo do tempo e as principais funcionalidades implementadas para aprimorar a experiência dos utilizadores. Neste local, é viável experimentar comandos de entretenimento, regulação, dados e ferramentas que foram elaborados com atenção para tornar os servidores do Discord mais vibrantes e participativos.
-
-Este site reflete a essência do meu trabalho e a minha dedicação em oferecer uma experiência incrível aos usuários do DGzzIN ツ. Descubra, deixe-se levar e conheça o máximo do que realizei até agora. Bem-vindo e aproveite para descobrir o mundo do DGzzIN ツ!
-
 Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 <br>
@@ -46,14 +38,14 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 # 🔗 Acesse o site com o link abaixo
 
-- [DGzzIN ツ | O Seu BOT para o Discord](https://dgzzinbot.netlify.app/)
+- [Celso Dos Frangos | Site oficial do futuro Vereador](https://celsodosfrangos.netlify.app/)
 
 ## ⚙️ Configuração
 
 🖨️ #Clonando o repositório do Github:
 
 ```
-$ git clone https://github.com/degabrielofi/DGzzIN_Web
+$ git clone https://github.com/degabrielofi/CelsoDosFrangos
 ```
 
 🗃️ #Instalação de packages:
