@@ -1,7 +1,7 @@
-<h1 align="center">Celso Dos Frangos</h1>
+<h1 align="center">🕴 Celso Dos Frangos</h1>
 
 <p align="center">
-  <img alt="MyLinks" src="./src/assets/images/Mockup.png" width="70%"> 
+  <img alt="MyLinks" src="./Web/src/assets/GitHub/Mockup.png" width="70%"> 
   </p>
 
   <p align="center">
@@ -29,11 +29,24 @@ Se você tiver problemas com qualquer um deles, saiba mais sobre o ambiente PATH
 
 # :clipboard: Sobre o projeto
 
-Abaixo podemos ver o resultado final do projeto. Espero que gostem!
+Este projeto consiste em uma página dedicada a documentar a trajetória política e realizações de Celso dos Frangos, vereador na cidade do Crato. O objetivo principal é fornecer aos visitantes uma visão detalhada da carreira de Celso dos Frangos, desde seu envolvimento na comunidade até suas conquistas e propostas políticas.
+
+⚠️ Atenção: Este site é uma iniciativa independente criada por apoiadores de Celso dos Frangos e não possui afiliação oficial com o político ou com organizações relacionadas. Todo o conteúdo apresentado neste site é baseado em informações disponíveis publicamente.
+
+Linha do Tempo da Carreira de Celso dos Frangos
+Na página de Celso dos Frangos, os visitantes encontrarão uma linha do tempo detalhada de sua carreira política, desde seus primeiros passos na comunidade até seus mandatos como vereador. A linha do tempo abrange eventos importantes, propostas legislativas, iniciativas de destaque e outras realizações relevantes.
+
+Principais Destaques
+Os principais destaques incluem informações sobre conquistas políticas, projetos de lei de destaque, iniciativas comunitárias e outras atividades relevantes de Celso dos Frangos. Os visitantes poderão explorar detalhes sobre suas propostas para melhorar a qualidade de vida da comunidade, suas contribuições para áreas específicas, como saúde, educação e infraestrutura urbana, e sua visão para o futuro do Crato.
+
+Resultado Final do Projeto
+A página de Celso dos Frangos oferece uma visão abrangente e informativa de sua trajetória política e realizações como vereador. Esperamos que esta iniciativa ajude a comunidade a entender melhor o trabalho de Celso dos Frangos e a tomar decisões informadas nas próximas eleições municipais.
+
+Abaixo você pode conferir o resultado final do projeto. Esperamos que gostem!
 
 <br>
 <p align="center">
-  <img alt="MyLinks" src="./src/assets/videos/DGzzIN.gif" width="70%"> 
+  <img alt="MyLinks" src="./Web/src/assets/GitHub/CelsoDosFrangos.gif" width="70%"> 
 </p>
 
 # 🔗 Acesse o site com o link abaixo
@@ -100,5 +113,5 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 ##
 
 <p align="center">
-  <img src="./src/assets/GitHub/Icon.png" width="15%">
+  <img src="./Web/src/assets/GitHub/IconHeader.png" width="15%">
 </p>
