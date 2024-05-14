@@ -214,16 +214,22 @@ const Footer = () => {
                       <li>
                         <span>Mídias:</span>
                         <div className="midias">
-                          <a href="https://www.facebook.com/celso.celsodosfrangos/">
+                          <a
+                            target="--blank"
+                            href="https://www.facebook.com/celso.celsodosfrangos/"
+                          >
                             <i className="facebook fab fa-facebook"></i>
                           </a>
-                          <a href="https://www.instagram.com/celsodosfrangos/">
+                          <a
+                            target="--blank"
+                            href="https://www.instagram.com/celsodosfrangos/"
+                          >
                             <i className="instagram fab fa-instagram"></i>
                           </a>
-                          <a href="">
+                          <a href="/">
                             <i className="twitter fab fa-twitter"></i>
                           </a>
-                          <a href="">
+                          <a href="/">
                             <i className="youtube fab fa-youtube"></i>
                           </a>
                         </div>

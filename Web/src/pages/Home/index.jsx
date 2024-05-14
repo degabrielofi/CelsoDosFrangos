@@ -10,9 +10,6 @@ const Home = () => {
   return (
     <>
       <Header />
-      {/* <Image id="Home">
-        <img src={Icon} alt="Celso Dos Frangos" />
-      </Image> */}
       <Cards />
       <Biography />
       <Footer />

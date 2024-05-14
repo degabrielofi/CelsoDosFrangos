@@ -3,7 +3,7 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import { Title, Container } from "./style";
 import proposals from "data/proposals.json";
-import Crato from "assets/images/Crato.jpg";
+import Crato from "assets/images/Crato_Praça.jpg";
 
 const Proposal = () => {
   return (

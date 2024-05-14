@@ -3,7 +3,8 @@ import { Title, CelsoDosFrangos, Vereador } from "./style";
 import Crato from "assets/images/Crato.jpg";
 import Header from "components/Header";
 import Footer from "components/Footer";
-import Celso from "assets/images/Celso Dos Frangos (1).png";
+import Celso from "assets/images/Celso.png";
+import CelsoYellow from "assets/images/Celso Dos Frangos (Yellow).png";
 
 const History = () => {
   return (
@@ -29,26 +30,18 @@ const History = () => {
         </div>
         <div className="text">
           <p>
-            "Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum." <br /> <br />
-            "Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum."
+            Nasci em 09 de maio de 1970, na acolhedora cidade de Assaré, no
+            interior do Ceará. Desde cedo, aprendi os valores da dedicação e do
+            trabalho árduo, traçando meu caminho na avicultura, uma paixão que
+            se tornou minha profissão. <br /> <br />
+            Ao longo dos anos, a avicultura não apenas sustentou minha família,
+            mas também se tornou parte integrante de minha identidade. Foi nesse
+            contexto que ganhei o apelido pelo qual sou conhecido até hoje:
+            Celso dos Frangos. Uma alcunha que não apenas reflete minha
+            atividade profissional, mas também a conexão profunda que tenho com
+            minha comunidade.
           </p>
-          <img src={Celso} alt="" />
+          <img src={CelsoYellow} alt="Celso2016" />
         </div>
       </CelsoDosFrangos>
 
@@ -59,26 +52,31 @@ const History = () => {
           <i></i>
         </div>
         <div className="text">
-          <img src={Celso} alt="" />
+          <img src={Celso} alt="Celso2012" />
           <p>
-            "Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum." <br /> <br />
-            "Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum."
+            Em 2012, dei um passo além em meu compromisso com minha comunidade,
+            ingressando na vida política. Sob a bandeira do Partido Progressista
+            (PP), fui eleito vereador na cidade do Crato, com uma votação
+            expressiva de 520 votos. Durante esse mandato, busquei representar
+            fielmente os anseios e necessidades dos cidadãos, lutando por
+            políticas públicas que promovessem o desenvolvimento e o bem-estar
+            de nossa cidade. <br /> <br /> Em 2016, concorri à reeleição como
+            vereador na cidade do Crato, desta vez pelo Partido Republicano
+            Trabalhista Brasileiro (PRTB). Recebi 527 votos, o que representou
+            0,78% dos votos válidos. Embora não tenha sido eleito, fiquei em
+            segundo lugar na classificação do partido, tornando-me suplente mais
+            uma vez.
+            <br />
+            <br />
+            Em 2020, mantive meu compromisso com o serviço público, concorrendo
+            novamente às eleições municipais. Recebi 763 votos, o que
+            representou 1,11% dos votos válidos, ficando como primeiro suplente
+            do partido Movimento Democrático Brasileiro (MDB). Atualmente,
+            continuo ativo na política local, como suplente a vereador no Crato.
+            E já vislumbro novos desafios no horizonte: estou pré-candidato a
+            vereador pelo Partido Progressista (PP) nas eleições de 2024,
+            determinado a continuar lutando pelo bem-estar e progresso de nossa
+            amada cidade.
           </p>
         </div>
       </Vereador>
