@@ -3,8 +3,8 @@ import { Title, CelsoDosFrangos, Vereador } from "./style";
 import Crato from "assets/images/Crato.jpg";
 import Header from "components/Header";
 import Footer from "components/Footer";
-import Celso from "assets/images/Celso.png";
-import CelsoYellow from "assets/images/Celso Dos Frangos (Yellow).png";
+import ElectedVereador from "assets/images/Elected.png";
+import CelsoRodrigues from "assets/images/Celso Rodrigues.png";
 
 const History = () => {
   return (
@@ -41,7 +41,7 @@ const History = () => {
             atividade profissional, mas também a conexão profunda que tenho com
             minha comunidade.
           </p>
-          <img src={CelsoYellow} alt="Celso2016" />
+          <img src={CelsoRodrigues} alt="Celso2016" />
         </div>
       </CelsoDosFrangos>
 
@@ -52,7 +52,7 @@ const History = () => {
           <i></i>
         </div>
         <div className="text">
-          <img src={Celso} alt="Celso2012" />
+          <img src={ElectedVereador} alt="Celso2012" />
           <p>
             Em 2012, dei um passo além em meu compromisso com minha comunidade,
             ingressando na vida política. Sob a bandeira do Partido Progressista

@@ -1,6 +1,6 @@
 import React from "react";
 import { Content } from "./style";
-import Celso from "assets/images/Celso (Blue).png";
+import Card from "assets/images/Principal Card.png";
 
 const Biography = () => {
   return (
@@ -29,7 +29,7 @@ const Biography = () => {
             expressiva de 520 votos.
           </p>
 
-          <img src={Celso} alt="" />
+          <img src={Card} alt="" />
         </div>
         <div className="biographyComplete">
           <a href="/historia">Biografia Completa</a>
