@@ -50,7 +50,7 @@ const Footer = () => {
         title: "Mensagem Enviada!",
         text: "Sua Mensagem foi enviada com sucesso.",
         footer: "Obrigado por ter entrado em contato.",
-        confirmButtonColor: "#880c85",
+        confirmButtonColor: "#01a164",
       });
     } catch (error) {
       setLoading(false);
